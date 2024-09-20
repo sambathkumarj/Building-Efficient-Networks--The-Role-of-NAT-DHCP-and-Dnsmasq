@@ -259,11 +259,11 @@ By following these steps, you can configure a DHCP server to dynamically assign 
 
 
 # DNSMASQ:
-		dnsmasq is a lightweight, easy to configure DNS forwarder, designed to provide DNS (and optionally DHCP and TFTP) services to a small-scale network. It can serve the names of local machines which are not in the global DNS.
+dnsmasq is a lightweight, easy to configure DNS forwarder, designed to provide DNS (and optionally DHCP and TFTP) services to a small-scale network. It can serve the names of local machines which are not in the global DNS.
 	
 
  # Purpose of dnsmasq:
-		dnsmasq caches DNS records, reducing the load on upstream nameservers and improving performance, and can be configured to automatically pick up the addresses of its upstream servers. dnsmasq accepts DNS queries and either answers them from a small, local cache or forwards them to a real, recursive DNS server.
+dnsmasq caches DNS records, reducing the load on upstream nameservers and improving performance, and can be configured to automatically pick up the addresses of its upstream servers. dnsmasq accepts DNS queries and either answers them from a small, local cache or forwards them to a real, recursive DNS server.
 
 # STEP 1: Set a Static IP for the Ethernet Interface
 
